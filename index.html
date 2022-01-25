@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTO</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- google font style link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md py-0">
+        <div class="container-fluid d-flex ">
+            <!-- Navbar Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./resources/hosto-logo.PNG" alt="">
+            </a>
+            <!-- collapsible Navbar Icon -->
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse w-100 bg-light justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav px-3">
+                    <li class="d-flex nav-item me-3">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="d-flex nav-item me-3">
+                        <a class="nav-link" href="#">Layouts</a>
+                    </li>
+                    <li class="d-flex nav-item me-3">
+                        <a class="nav-link" href="#">Elements</a>
+                    </li>
+                    <li class="d-flex nav-item me-3">
+                        <a class="nav-link" href="#">Protfolio</a>
+                    </li>
+                    <li class="d-flex nav-item me-3">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="d-flex nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slideshow -->
+    <div id="hosto-slider" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators-->
+        <div class="carousel-indicators">
+            <div type="button" data-bs-target="#hosto-slider" data-bs-slide-to="0" class="active"></div>
+            <button type="button" data-bs-target="#hosto-slider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#hosto-slider" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- slideshow imgs -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./resources/img1.jpg" alt="bg img one" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/img2.jpg" alt="bg img two" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/img3.jpg" alt="bg img three" class="d-block w-100">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- features container -->
+
+    <div class="container d-flex jusify-content-center mt-5">
+        <!-- secure & reliable -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center"
+            style="background-color: #07aca0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i
+                    class="far fa-thumbs-up" style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white">Mobile</p>
+            <h4 class="text-white text-center">Secure & Reliable</h4>
+            <p class="text-white text-center px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+        <!-- quick & super fast -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center"
+            style="background-color: #17bcb0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i class="fas fa-rocket"
+                    style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white text-center">Mobile</p>
+            <h4 class="text-white text-center">Quick & Super Fast</h4>
+            <p class="text-white text-center px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+        <!-- customer support -->
+        <div class="flex-fill d-flex flex-column justify-content-center align-items-center py-4"
+            style="background-color: #27ccc0;">
+            <div class="d-flex rounded-circle align-items-center justify-content-center"
+                style="width: 70px; height: 70px; background-color: rgba(255, 255, 255, 0.15)"><i
+                    class="fas fa-comments" style="font-size: 24px; color: white;"></i>
+            </div>
+            <p class="text-white">Mobile</p>
+            <h4 class="text-white text-center">Customer Support</h4>
+            <p class="text-white text-center px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+                deserunt iste rem ipsam est inventore
+                voluptate esse suscipit. Magnam molestiae placeat temporibus</p>
+        </div>
+
+    </div>
+
+    <!-- Hosto Plans & Pricing -->
+    <div class="containr-fluid mt-5 p-5" style="background-color: #fafafa;">
+        <div class="container">
+            <!-- section title -->
+            <div class="d-flex flex-column justify-content-center">
+                <div class="text-center">
+                    <span class="h2 bolder pe-2" style="color: #3e5161;">Hosto</span>
+                    <span class="h2 bolder pe-2" style="color: #27ccc0;">Plans</span>
+                    <span class="h2 bolder pe-2" style="color: #3e5161;">&</span>
+                    <span class="h2 bolder" style="color: #27ccc0;">Pricing</span>
+                </div>
+                <div class="text-center text-muted">
+                    <p>Our Hosting plans in details, choose the right plan for you!</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <!-- card 1 -->
+                <div class="col-6 col-sm-4 col-lg-3 mb-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white fw-bold" style="background-color: #07aca0;">
+                            Web Hosting
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="height: 120px; background: linear-gradient(0deg, rgba(206,213,214,1) 10%, rgba(255,255,255,1) 80%);">
+                                <div class="">
+                                    <span class="h3 bolder hosto-secondary pe-2">$</span>
+                                </div>
+                                <div>
+                                    <span class="display-1 bolder hosto-secondary pe-2">4</span>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="h3 bolder hosto-secondary">.45</span>
+                                    <span class="h6 bolder hosto-secondary">/month</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3" style="min-height: 150px;">
+                            <div>
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">10GB</span> <span class="text-muted"> Storage
+                                    Space</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">15GB</span> <span class="text-muted">
+                                    Bandwidth</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Unlimited</span> <span class="text-muted">FTP &
+                                    Email</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Free</span> <span class="text-muted">
+                                    Domain</span>
+                            </div>
+                        </div>
+                        <div class="card-footer btn text-white fw-bold" style="background-color: #07aca0;">
+                            Sign Up Now
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-6 col-sm-4  col-lg-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white fw-bold" style="background-color: #07aca0;">
+                            Web Hosting
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="height: 120px; background: linear-gradient(0deg, rgba(206,213,214,1) 10%, rgba(255,255,255,1) 80%);">
+                                <div class="">
+                                    <span class="h3 bolder hosto-secondary pe-2">$</span>
+                                </div>
+                                <div>
+                                    <span class="display-1 bolder hosto-secondary pe-2">9</span>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="h3 bolder hosto-secondary">.45</span>
+                                    <span class="h6 bolder hosto-secondary">/month</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3" style="min-height: 150px;">
+                            <div>
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">10GB</span> <span class="text-muted"> Storage
+                                    Space</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">15GB</span> <span class="text-muted">
+                                    Bandwidth</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Unlimited</span> <span class="text-muted">FTP &
+                                    Email</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Free</span> <span class="text-muted">
+                                    Domain</span>
+                            </div>
+                        </div>
+                        <div class="card-footer btn text-white fw-bold" style="background-color: #07aca0;">
+                            Sign Up Now
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white fw-bold" style="background-color: #07aca0;">
+                            Web Hosting
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="height: 120px; background: linear-gradient(0deg, rgba(206,213,214,1) 10%, rgba(255,255,255,1) 80%);">
+                                <div class="">
+                                    <span class="h3 bolder hosto-secondary pe-2">$</span>
+                                </div>
+                                <div>
+                                    <span class="display-1 bolder hosto-secondary pe-2">12</span>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="h3 bolder hosto-secondary">.45</span>
+                                    <span class="h6 bolder hosto-secondary">/month</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3" style="min-height: 150px;">
+                            <div>
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">10GB</span> <span class="text-muted"> Storage
+                                    Space</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">15GB</span> <span class="text-muted">
+                                    Bandwidth</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Unlimited</span> <span class="text-muted">FTP &
+                                    Email</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Free</span> <span class="text-muted">
+                                    Domain</span>
+                            </div>
+                        </div>
+                        <div class="card-footer btn text-white fw-bold" style="background-color: #07aca0;">
+                            Sign Up Now
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="col-6 col-sm-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-header text-center text-white fw-bold" style="background-color: #07aca0;">
+                            Web Hosting
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center justify-content-center"
+                                style="height: 120px; background: linear-gradient(0deg, rgba(206,213,214,1) 10%, rgba(255,255,255,1) 80%);">
+                                <div class="">
+                                    <span class="h3 bolder hosto-secondary pe-2">$</span>
+                                </div>
+                                <div>
+                                    <span class="display-1 bolder hosto-secondary pe-2">14</span>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="h3 bolder hosto-secondary">.45</span>
+                                    <span class="h6 bolder hosto-secondary">/month</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3" style="min-height: 150px;">
+                            <div>
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">10GB</span> <span class="text-muted"> Storage
+                                    Space</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">15GB</span> <span class="text-muted">
+                                    Bandwidth</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Unlimited</span> <span class="text-muted">FTP &
+                                    Email</span>
+                            </div>
+                            <div class="mt-2">
+                                <span class="pe-1"> <img src="./resources/checked.png" height="24" width="24" alt="">
+                                </span>
+                                <span class="text-secondary fw-bold ">Free</span> <span class="text-muted">
+                                    Domain</span>
+                            </div>
+                        </div>
+                        <div class="card-footer btn text-white fw-bold" style="background-color: #07aca0;">
+                            Sign Up Now
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- thirs secontion (key features of hosto) container -->
+    <div class="container mt-5 pt-2 mb-5">
+        <div class="d-flex flex-column justify-content-center">
+            <div class="text-center">
+                <span class="h2 bolder pe-2" style="color: #3e5161;">Key Features of</span>
+                <span class="h2 bolder pe-2" style="color: #27ccc0;">Hosto</span>
+            </div>
+            <div class="text-center text-muted">
+                <p>Our Hosting plans in details, choose the right plan for you!</p>
+            </div>
+        </div>
+
+        <!-- First Row -->
+        <div class="row mt-3">
+            <div class="col-12 col-sm-6 col-lg-4 mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        Web Hosting
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/web-hosting.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        E-Commerce
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/ecommerce.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        Domains
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/domains.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <!-- second row -->
+            <!-- <div class="row mt-5"> -->
+            <div class="col-12 col-sm-6 col-lg-4  mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        My Website
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/mywebsite.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4  mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        Servers
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/servers.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4  mt-4" style="position: relative">
+                <div class="card mt-4">
+                    <div class="card-header bg-white fw-bold fs-6">
+                        MyWebsite Personal
+                    </div>
+                    <div class="card-body"
+                        style=" background: linear-gradient(0deg, rgb(226, 231, 231) 10%, rgba(255,255,255,1) 80%);">
+                        <div class="d-flex">
+                            <div class="flex-fill">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam aliquid ea
+                                    animi delectus, laborum, ab eveniet nihil</p>
+                                <button class="btn shadow-sm bg-body rounded text-muted">Read more</button>
+                            </div>
+                            <div class="d-flex align-items-end">
+                                <img src="./resources/mywebsite_personal.png" width="120" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center bg-white border rounded-circle"
+                    style="width: 100px; height: 100px; position: absolute; top: 0; right: 0;">
+                    <span class="fw-bold">Starting</span>
+                    <span class="fs-5 fst-italic fw-bold text-danger">$1.99 </span>
+                    <span class="fw-bold">/month</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/jquery.png" height="70" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/java.svg" height="70" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/html.svg" height="70" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/chrome.svg" height="70" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/cpanel.svg" height="70" width="100" alt="">
+            </div>
+            <div class="d-flex justify-content-center align-items-center col-4 col-md-2 border tech">
+                <img src="./resources/mysql.svg" height="90" alt="">
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 p-4 bg-dark text-white text-center">
+        <div class="row">
+            <div class="col-4 col-md-3">
+                <p class="text-secondary fs-6 fw-bold text-start">About Us</p>
+                <p class="text-secondary text-start font-italic">Lorem ipsum dolor amet consectetur adipisicing elit.
+                    Commodi conseq uuntur persp iciatis, itaque amet</p>
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-home me-2" style="color: #07aca0;"></i>
+                    <p class="text-start text-secondary"><small>3301 Envato Melboume Littel Losdenal St</small></p>
+                </div>
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-phone-alt me-2" style="color: #07aca0;"></i>
+                    <p class="text-start text-secondary"><small>+1 234 123 4567</small></p>
+                </div>
+                <div class="d-flex align-items-start">
+                    <i class="fas fa-envelope me-2" style="color: #07aca0;"></i>
+                    <p class="text-start text-secondary"><small>info@owltemplets.com</small></p>
+                </div>
+            </div>
+            <div class="col-4 col-md-2">
+                <p class="text-secondary fs-6 fw-bold text-start p-0">Navigation</p>
+                <ul>
+                    <li class="text-secondary text-start"><small>Web Hosting</small></li>
+                    <li class="text-secondary text-start"><small>Reseller Hosting</small></li>
+                    <li class="text-secondary text-start"><small>Features</small></li>
+                    <li class="text-secondary text-start"><small>VPS Hosting</small></li>
+                    <li class="text-secondary text-start"><small>Dedicated Servers</small></li>
+                    <li class="text-secondary text-start"><small>Domain Registration</small></li>
+                </ul>
+
+            </div>
+            <div class="col-4 col-md-2">
+                <p class="text-secondary fs-6 fw-bold text-start p-0">Useful Links</p>
+                <ul>
+                    <li class="text-secondary text-start"><small>Proin gravida nibh vel</small></li>
+                    <li class="text-secondary text-start"><small>Velit auctor aliquet venen</small></li>
+                    <li class="text-secondary text-start"><small>Aenean solicitudin</small></li>
+                    <li class="text-secondary text-start"><small>Lorem lpsum Dolor</small></li>
+                    <li class="text-secondary text-start"><small>Dedicated Servers</small></li>
+                    <li class="text-secondary text-start"><small>Domain Registration</small></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md-2">
+                <p class="text-secondary fs-6 fw-bold text-start p-0">Recent Posts</p>
+                <ul>
+                    <li class="text-secondary text-start"><small>Home</small></li>
+                    <li class="text-secondary text-start"><small>About</small></li>
+                    <li class="text-secondary text-start"><small>Features</small></li>
+                    <li class="text-secondary text-start"><small>Blog</small></li>
+                    <li class="text-secondary text-start"><small>Works</small></li>
+                    <li class="text-secondary text-start"><small>Contacts</small></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md-3">
+                <p class="text-secondary fs-6 fw-bold text-start p-0">Tags</p>
+                <div class="d-flex flex-wrap">
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Business</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Corporate</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Protfolio</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Work</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Clean</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Template</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Wordpress</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Joomla</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Drupal</div>
+                    <div class="badge me-1 mb-1" style="background-color: #07aca0">Grow</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

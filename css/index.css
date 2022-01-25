@@ -1,0 +1,54 @@
+nav {
+    height: 55px;
+}
+
+.nav-link {
+    border-top: 3px solid transparent;
+    border-bottom:3px solid transparent;
+}
+
+.nav-link:hover {
+    border-top: 3px solid cyan;
+    color: cyan;
+    border-bottom:3px solid transparent;
+}
+
+#hosto-slider {
+    height: 300px;
+}
+#hosto-slider img {
+    height: 300px;
+}
+
+.carousel {
+    position:absolute;
+    top:0;    
+}
+
+.navbar {
+    position:absolute;
+    /* top:30px; */
+    z-index: 10;
+    width:100%;
+}
+
+
+.bolder {
+    font-family: 'Fredoka One', cursive;
+}
+
+.hosto-primary {
+    color: #07aca0;
+}
+
+.hosto-secondary {
+    color: #3e5161;
+}
+
+.tech img {
+    opacity: 0.2;
+}
+
+.tech img:hover {
+    opacity: 1;
+}
